@@ -23,7 +23,7 @@ while True:
     isTrue,frame = capture.read()
     # frame_resized = rescale_frame(frame,0.75)
     cv.imshow('Video_original',frame)
-    if(cv.waitKey(100) & 0xFF==ord('d')):                # press d to close the video window
+    if(cv.waitKey(100) & 0xFF==ord('d')):                # press d to close the video window Also, cv.waitKey(20)==ord('d') can be written ... 0 in the waitkey value denotes infinity
         break                                           # basically waitkey(10) introduces a delay of 10 milliseconds between the frames and returns the ASCII value of the keyboard key pressed
 
 capture.release()
