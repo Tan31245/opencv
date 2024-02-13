@@ -4,4 +4,6 @@
 * **basic_functions.py**  demonstrates some basic functions like grayscaling an image, blurring it, edge cascading and eroding it and cropping   
 * **transformations.py** demonstrates some basic translation,rotation,flipping and resizing of images  
 * **contours.py** demonstrates how can we extract contours from a given image
-* **color_spaces.py** demonstrates various colour spaces available in opencv like (HSV,Grayscale,Lab) and how to inter-convert between them  
+* **color_spaces.py** demonstrates various colour spaces available in opencv like (HSV,Grayscale,Lab) and how to inter-convert between them
+* **color_channels.py** demonstrates how to split an image into its various color channels like red,green and blue and also how to merge them
+* 
