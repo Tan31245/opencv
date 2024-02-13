@@ -13,7 +13,7 @@ gray=cv.cvtColor(img,cv.COLOR_BGR2GRAY)
 hsv=cv.cvtColor(img,cv.COLOR_BGR2HSV)
 # cv.imshow("hsv",hsv)
 
-# 3) BGR to Lab 
+# 3) BGR to Lab                       # Lab : L for lightness a,b for color opponent dimensions... The way how we perceive color differences
 lab=cv.cvtColor(img,cv.COLOR_BGR2LAB)
 # cv.imshow("Lab",lab)
 
