@@ -11,7 +11,7 @@ average=cv.blur(img,(3,3))          # the higher kernel size, the more blurry th
 #2) Gaussian Blur (middle one gets the weighted average intensity of its surrounding 8 pixels)... this is why it is les blurry than average but it is more natural
 gaussian = cv.GaussianBlur(img,(5,5),0)         # 3rd arg is standard deviation in the x direction
 # if sigmay is set zero then it becomes equal to sigmax
-# if sigmax is set zero then it is auto-calculated as sigma=0.3×((ksize x−1)×0.5−1)+0.8
+# if sigmax is set zero then it is auto-calculated as sigma=0.3×((ksize−1)×0.5−1)+0.8
 # cv.imshow("Gaussian",gaussian)
 
 #3) Median blurring         # Same as averaging but it calculates median instead of average of the surrounding 8 pixels
